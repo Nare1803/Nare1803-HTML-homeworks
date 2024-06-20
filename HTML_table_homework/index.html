@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <meta property="og:title" content="My Page Title" />
+    <meta property="og:description" content="My Page Description" />
+    <meta property="og:image" content="https://example.com/image.jpg" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:type" content="website" />
+    <meta name="keywords" content="HTML CSS JavaScript" />
+    <meta name="description" content="This is the description" />
+    <meta name="author" content="Nare Hakobyan" />
+</head>
+<body>
+    <header>
+       <h2>Table</h2>
+    </header>
+    <main>
+        <section>
+          <table border="1">
+            <thead>
+                <tr>
+                    <th rowspan="3">Day</th>
+                    <th colspan="3">Seminar</th>
+                </tr>
+                <tr>
+                   <th colspan = "2">Schedule</th>
+                   <th rowspan = "2">Topic</th>
+                </tr>
+                <tr>
+                    <th>begin</th>
+                    <th>end</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2"> Monday</td>
+                    <td rowspan="2">8:00 a.m.</td>
+                    <td rowspan="2">5:00 p.m.</td>
+                    <td>Intriduction to XML</td>
+                </tr>
+                <tr>
+                  <td>Validity: DTD and Relax NG</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"> Tuesday</td>
+                    <td>8:00 a.m.</td>
+                    <td>11:00 a.m.</td>
+                    <td rowspan ="2">XPath</td>
+                </tr>
+                <tr>
+                    <td>11:00 a.m.</td>
+                    <td>2:00 p.m.</td>
+                </tr>
+                <tr>
+                    <td>2:00 p.m.</td>
+                    <td>5:00 p.m.</td>
+                    <td>XSL Transformations</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>8:00 a.m.</td>
+                    <td>12:00 p.m</td>
+                    <td>XSL Formatting Objects</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4"> Footer</td>
+                </tr>
+            </tfoot>
+          </table>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
